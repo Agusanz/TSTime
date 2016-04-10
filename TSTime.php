@@ -1,7 +1,7 @@
 <?php
 
 require_once("TeamSpeak3/TeamSpeak3.php");
-
+date_default_timezone_set('America/Argentina/Buenos_Aires');
 TeamSpeak3::init();
 
 $user = "serveradmin";
